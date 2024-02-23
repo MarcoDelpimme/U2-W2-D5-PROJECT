@@ -11909,4 +11909,28 @@ textarea.form-control-lg {
   background-color: #333333;
 }
 
+#imgrelative {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  width: 20px;
+  background-color: #212529;
+  border-radius: 50%;
+}
+#imgrelative:hover {
+  background-color: brown;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.carousel-item img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
