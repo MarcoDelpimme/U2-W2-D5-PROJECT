@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Profile Netflix</title>
+  </head>
+  <body class="bg-dark mx-5">
+    <header class="position-sticky top-0" style="z-index: 5">
+      <div class="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/netflix_logo.png" alt="" width="100px" /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- END_HEADER -->
+    <div class="container-xs text-white mx-auto my-5" style="width: 60%">
+      <div class="border-bottom solid border-secondary"><h1>Edit Profile</h1></div>
+      <div class="row py-4">
+        <div class="col-2">
+          <div class="position-relative">
+            <img src="./assets/avatar.png" alt="" width="100%" />
+            <i class="fas fa-pen position position-absolute top-0 left-0"></i>
+          </div>
+        </div>
+        <div class="col-10">
+          <div class="row pb-4 border-bottom solid border-secondary">
+            <div class="col-12 mycustomtext2 mb-3">Strive Student</div>
+            <div class="col-12 mycustomtext1"><h4>Language:</h4></div>
+            <div class="col-12">
+              <button class="mybtn px-3">
+                <li class="nav-item dropdown" style="list-style: none">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    English
+                  </a>
+                  <ul class="dropdown-menu mycolormenudrop">
+                    <li><a class="dropdown-item" href="#">Italian</a></li>
+                    <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    <li><a class="dropdown-item" href="#">Polish</a></li>
+                  </ul>
+                </li>
+              </button>
+            </div>
+          </div>
+          <div class="row mb-4 border-bottom solid pt-4 pb-5 border-secondary">
+            <div class="col-12 mycustomtext1"><h4>Maturity Settings:</h4></div>
+            <div class="col-6 mycustomtext3 text-center p-1 mb-2">ALL MATURITY RATINGS</div>
+            <div class="col-6"></div>
+            <div class="col-12"><p class="pb-2">Show titles of all maturity ratings for this profile</p></div>
+            <div class="col-12"><a href="" class="btnEditProfile">EDIT</a></div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="col-12 mycustomtext1"><h4>Autoplay controls</h4></div>
+              <div class="form-check">
+                <input class="form-check-input bg-dark" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Autoplay next episode in a series on all devices
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input bg-dark" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Autoplay previews whilte browsing on all devices
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 text-center border-top solid pt-4 pb-5 border-secondary">
+        <div class="col-4"><div class="btnEditProfile">SAVE</div></div>
+        <div class="col-4"><div class="btnEditProfile">CANCEL</div></div>
+        <div class="col-4"><div class="btnEditProfile">DELETE PROFILE</div></div>
+      </div>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

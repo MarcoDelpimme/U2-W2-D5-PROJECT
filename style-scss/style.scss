@@ -1,0 +1,73 @@
+@import "./override";
+
+.mycolormenudrop {
+  background-color: #acacac;
+}
+
+.mybtn {
+  background-color: black;
+  border-color: white;
+  color: white;
+  border: solid white 1px;
+}
+
+.myiconbtn {
+  background-color: #212529;
+  border-color: rgba(122, 122, 122, 0.973);
+  color: rgba(122, 122, 122, 0.973);
+  border: solid 1px;
+  font-size: 15px;
+  padding-inline: 10px;
+}
+
+.mytextcolor {
+  color: rgba(122, 122, 122, 0.973);
+}
+
+.footerbtn {
+  border: solid rgba(122, 122, 122, 0.973) 1px;
+  background-color: #212529;
+  border-color: rgba(122, 122, 122, 0.973);
+  color: rgba(122, 122, 122, 0.973);
+  padding: 6px;
+  text-decoration: none;
+}
+
+.myiconbtn2 {
+  background-color: #212529;
+  border-color: rgba(122, 122, 122, 0.973);
+  color: rgba(122, 122, 122, 0.973);
+
+  font-size: 15px;
+  padding-inline: 10px;
+}
+
+.btnEditProfile {
+  border: solid rgba(122, 122, 122, 0.973) 1px;
+  background-color: #212529;
+  border-color: rgba(122, 122, 122, 0.973);
+  color: rgba(122, 122, 122, 0.973);
+  padding: 6px;
+  text-decoration: none;
+  padding-inline: 30px;
+
+  &:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+  }
+}
+
+.mycustomtext1 {
+  color: rgba(159, 159, 159, 0.973);
+}
+
+.mycustomtext2 {
+  background-color: #666666;
+  color: white;
+  padding-block: 6px;
+}
+
+.mycustomtext3 {
+  background-color: #333333;
+}
